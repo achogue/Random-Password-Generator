@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Password Generator</h1>
+      </header>
+      <div class="card">
+        <div class="card-header">
+          <h2>Generate a Password</h2>
+        </div>
+        <div class="card-body">
+          <textarea
+            readonly
+            id="password"
+            placeholder="Your Secure Password"
+            aria-label="Generated Password"
+          ></textarea>
+        </div>
+        <div id="criteria" class="card">
+          <div class="card-body">
+            <table>
+              <tbody>
+                <tr>
+                  <td colspan="2">Criteria:</td>
+                </tr>
+                <tr>
+                  <td width="40%">Password Length:</td>
+                  <td><input name="pwdLength" maxlength="3" id="pwdLength" value="8" type="text" ></td>
+                </tr>
+                <tr>
+                  <td width="40%">Lowercase Characters:</td>
+                  <td><input name="lowerChar" id="lowerChar" type="checkbox" ></td>
+                </tr>
+                <tr>
+                  <td width="40%">Uppercase Characters:</td>
+                  <td><input name="upperChar" id="upperChar" type="checkbox" ></td>
+                </tr>
+                <tr>
+                  <td width="40%">Special Characters:</td>
+                  <td><input name="specialChar" id="specialChar" type="checkbox" ></td>
+                </tr>
+                <tr>
+                  <td width="40%">Numbers:</td>
+                  <td><input name="numberChar" id="numberChar" type="checkbox" ></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="card-footer">
+          <button id="generate" class="btn">Generate Password</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js">
+
+      
+
+    </script>
+  </body>
+</html>
