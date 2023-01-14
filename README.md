@@ -3,4 +3,4 @@ Need a password? Use this random password generator that allows you to pick from
 https://achogue.github.io/Random-Password-Generator/
 
 
-!(./Assets/password_generator.PNG)
+
